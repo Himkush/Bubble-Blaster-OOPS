@@ -14,6 +14,14 @@ public class Game {
         frame.add(panel);
         frame.pack();
         frame.setVisible(true);
+
+        JFrame frame1 = new JFrame();
+        GamePanel panel1 = new GamePanel();
+        frame1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame1.add(panel1);
+        frame1.pack();
+        frame1.setVisible(true);
+
     }
 
 

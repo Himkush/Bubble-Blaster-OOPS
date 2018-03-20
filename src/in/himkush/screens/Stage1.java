@@ -26,7 +26,7 @@ public class Stage1 extends Screen {
         this.balloon.add(new Balloon(240, 660, Resources.balloon1));
         this.balloon.add(new Balloon(480, 790, Resources.balloon1));
         this.balloon.add(new Balloon(480, 920, Resources.balloon1));
-        this.balloon.add(new Balloon(200, 920, Resources.balloon1));
+       // this.balloon.add(new Balloon(200, 920, Resources.balloon1));
 
         this.bomb.add(new Bomb(380, 1020, Resources.bomb1));
         this.bomb.add(new Bomb(100, 790, Resources.bomb1));
@@ -49,7 +49,7 @@ public class Stage1 extends Screen {
                 if (b1.isVisible) {
                     this.miss += 1;
                 }
-
+                b1.x = rand.nextInt(Game.GAME_WIDTH - b1.width);
                 b1.isVisible = true;
 
             }
@@ -64,6 +64,7 @@ public class Stage1 extends Screen {
         for (Bomb b2 : bomb) {
             if (b2.y <= -120) {
                 b2.y = 620;
+                b2.x = rand.nextInt(Game.GAME_WIDTH - b2.width);
             }
 
         }
