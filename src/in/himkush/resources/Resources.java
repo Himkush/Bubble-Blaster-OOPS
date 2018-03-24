@@ -57,7 +57,7 @@ public class Resources {
             bombAudio = Applet.newAudioClip(Resources.class.getClassLoader().getResource("in/himkush/resources/audios/bomb.wav"));
             gameOver = Applet.newAudioClip(Resources.class.getClassLoader().getResource("in/himkush/resources/audios/gameover.wav"));
 
-            musicAudio = Applet.newAudioClip(Resources.class.getClassLoader().getResource("in/himkush/resources/audios/pappu1.wav"));
+            musicAudio = Applet.newAudioClip(Resources.class.getClassLoader().getResource("in/himkush/resources/audios/music.wav"));
             hitAudio = Applet.newAudioClip(Resources.class.getClassLoader().getResource("in/himkush/resources/audios/hit.wav"));
 
         } catch (IOException e) {

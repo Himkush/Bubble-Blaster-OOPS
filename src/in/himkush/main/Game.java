@@ -16,13 +16,13 @@ public class Game {
         frame.setVisible(true);
 
 
-
-        JFrame frame1 = new JFrame();
-        GamePanel panel1 = new GamePanel();
-        frame1.setDefaultCloseOperation(frame1.EXIT_ON_CLOSE);
-        frame1.add(panel1);
-        frame1.pack();
-        frame1.setVisible(true);
+//
+//        JFrame frame1 = new JFrame();
+//        GamePanel panel1 = new GamePanel();
+//        frame1.setDefaultCloseOperation(frame1.EXIT_ON_CLOSE);
+//        frame1.add(panel1);
+//        frame1.pack();
+//        frame1.setVisible(true);
 
     }
 
