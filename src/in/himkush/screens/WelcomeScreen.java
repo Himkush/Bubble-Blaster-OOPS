@@ -16,7 +16,6 @@ public class WelcomeScreen extends Screen {
         g.setColor(Color.blue);
         g.drawImage(Resources.welcome,0,125,null);
 
-
     }
 
     @Override
